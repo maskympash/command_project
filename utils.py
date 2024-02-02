@@ -8,6 +8,27 @@ def fact_rec(number: int):
     else:
         return 1
 
+<<<<<<< HEAD
+
+def is_prime(number: int):
+    from math import ceil
+
+    number = abs(number)
+
+    if number == 0 or number == 1:
+        return False
+
+    elif number == 2:
+        return True
+
+    end = ceil(number ** 0.5) + 1
+
+    for i in range(2, end):
+        if number % 2 == 0:
+            return False
+
+    return True
+=======
 def nsd(a, b):
     if a < b:
         a,b = b,a
@@ -16,4 +37,7 @@ def nsd(a, b):
 
     return a
 
+<<<<<<< HEAD
+
+=======
 
