@@ -7,3 +7,5 @@ def fact_rec(number: int):
 
     else:
         return 1
+
+print(fact_rec())
