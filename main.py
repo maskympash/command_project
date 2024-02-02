@@ -1,11 +1,4 @@
-def fact_rec(number: int):
-    if number < 0:
-        return None
+from utils import is_power_of_five
 
-    if number > 0:
-        return number * fact_rec(number - 1)
-
-    else:
-        return 1
-
-print(fact_rec())
+print(is_power_of_five(625))
+print(is_power_of_five(624))
