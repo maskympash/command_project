@@ -1,11 +1,6 @@
-def fact_rec(number: int):
-    if number < 0:
-        return None
+from utils import is_prime
 
-    if number > 0:
-        return number * fact_rec(number - 1)
+print(is_prime(5))
+print(is_prime(112))
+print(is_prime(0))
 
-    else:
-        return 1
-
-print(fact_rec())
