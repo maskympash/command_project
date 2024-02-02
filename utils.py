@@ -7,3 +7,14 @@ def fact_rec(number: int):
 
     else:
         return 1
+
+def nsd(a, b):
+    if a < b:
+        a,b = b,a
+    while b > 0:
+        a, b = b, a % b
+
+    return a
+
+a, b = [int(d) for d in input().split()]
+print(nsd(a,b))
