@@ -38,6 +38,7 @@ def nsd(a, b):
 
     return a
 
-a, b = [int(d) for d in input().split()]
-print(nsd(a,b))
->>>>>>> b01ea2f8df6e6b68d0aedbc6c9fc7c292895fed7
+<<<<<<< HEAD
+
+=======
+
