@@ -28,6 +28,7 @@ def is_prime(number: int):
             return False
 
     return True
+
 =======
 def nsd(a, b):
     if a < b:
