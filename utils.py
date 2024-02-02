@@ -8,6 +8,9 @@ def fact_rec(number: int):
     else:
         return 1
 
+def is_power_of_five(number):
+    return (number > 0) and (math.log(number, 5) % 1 == 0)
+
 def nsd(a, b):
     if a < b:
         a,b = b,a
