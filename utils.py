@@ -16,5 +16,4 @@ def nsd(a, b):
 
     return a
 
-a, b = [int(d) for d in input().split()]
-print(nsd(a,b))
+
