@@ -8,17 +8,15 @@ def fact_rec(number: int):
     else:
         return 1
 
-<<<<<<< HEAD
 
 def is_power_of_five(number):
     import math
     return (number > 0) and (math.log(number, 5) % 1 == 0)
-=======
+
 
 def is_power_of_five(number):
     return (number > 0) and (math.log(number, 5) % 1 == 0)
 
->>>>>>> 2cdfe0ba4a0d55b04f4102b32f6858e85fa619ba
 
 def is_prime(number: int):
     from math import ceil
@@ -38,11 +36,8 @@ def is_prime(number: int):
             return False
 
     return True
-<<<<<<< HEAD
-=======
 
 
->>>>>>> 2cdfe0ba4a0d55b04f4102b32f6858e85fa619ba
 def nsd(a, b):
     if a < b:
         a,b = b,a
@@ -50,8 +45,3 @@ def nsd(a, b):
         a, b = b, a % b
 
     return a
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 2cdfe0ba4a0d55b04f4102b32f6858e85fa619ba
